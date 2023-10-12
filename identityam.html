@@ -1,0 +1,1034 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Identity Access Management</title>
+    <link rel="shortcut icon" type="Final Template/png" href="favicon.png" >
+    <!-- External CSS -->
+    <link rel="stylesheet" href="./homestyles.css">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://z9q6w4g4.rocketcdn.me/wp-content/themes/micantech/css/bootstrap.min.css" type="text/css" media="all">
+    <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <div class="top">
+    
+        <h6> <img width="15px"  src="mail.png" alt="">info@micantech.net <img width="15px"  src="phn.png" alt="">302-703-0708 </h6>
+        
+    </div>
+
+    <div class="social-logos">
+        <a class="social-logo" href="https://www.facebook.com/www.micantech.net/">
+            <img src="fb.png" alt="Facebook" width="20" height="20">
+        </a>
+
+        <!-- Twitter logo -->
+        <a class="social-logo" href="https://twitter.com/Mican_Tech">
+            <img src="twitter.png" alt="Twitter" width="20" height="20">
+        </a>
+
+        <!-- Instagram logo -->
+        <a class="social-logo" href="https://www.instagram.com/Mican_Tech/m">
+            <img src="ig.png" alt="Instagram" width="20" height="20">
+        </a>
+
+        <!-- LinkedIn logo -->
+        <a class="social-logo" href="https://www.linkedin.com/company/mican-technologies/">
+            <img src="in.png" alt="LinkedIn" width="20" height="20">
+        </a>
+    </div>
+    <!------------------------------------------------------------------------------styles------------------------------------------------------------------------------------------------>
+    
+    <style>
+
+
+
+        
+        
+        header{
+display: flex;
+justify-content: space-between;
+align-items: center;
+width: 100%;
+padding: 0 194px;
+border-bottom: 1px solid black;
+
+}
+
+header ul li{
+display: inline-block;
+list-style: none;
+margin: 0 20px;
+
+}
+
+header ul li:last-child{
+margin-right: 0;
+}
+header ul li a{
+text-decoration: none;
+color: #42424a;
+padding: 22px 0;
+display: inline-block;
+transition: all ease 0.1s;
+font-size: 18px;
+}
+header ul li a:hover{
+
+}
+
+/* submenu style */
+header ul .submenu{
+position: absolute;
+width: 200px;
+background-color: #ffffff;
+border-radius: 5%;
+box-shadow: 0 20px 45px #00000020;
+margin-top: -50px;
+opacity: 0;
+z-index: 1;
+transition: all ease 0.4s;
+}
+header ul li:hover .submenu{
+z-index: ;
+opacity: 1;
+margin-top: 0;
+}
+header ul .submenu li{
+margin: 0;
+width: 100%;
+} 
+header ul .submenu li a{
+padding: 5px 5px;
+display: inline-block;
+width: 100%;
+}
+
+.hero_sec{
+display: flex;
+justify-content: left;
+align-items: left;
+height: 100vh;
+}
+
+
+
+
+
+
+
+
+
+
+.slides {
+            width: 100%;
+            margin: 0 auto;
+            padding: 25px;
+            background-color: white;
+            border-radius: 8px;
+            /* box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); */
+            position: relative;
+            overflow: ;
+        }
+
+        .slider {
+            display: flex;
+            overflow-x: scroll;
+            scroll-behavior: smooth;
+            width: 100%;
+            border-radius: 2%;
+        }
+
+        .slider::-webkit-scrollbar {
+            width: 10px;
+        }
+
+    
+        .slide {
+            flex: 0 0 auto;
+            width: 300px;
+            height: 100px;
+            margin-right: 50px;
+            border-radius: 1%;
+            /* box-shadow: 0 0 5px rgba(0, 0, 0, 0.5); */
+            box-shadow: 0 10px 10px 2px rgb(72 73 121 / 10%)
+        }
+
+        .slide img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            border-radius: 1%;
+        }
+
+        .slider-controls {
+            position: absolute;
+            top: 50%;
+            transform: translateY(-50%);
+            width: 100%;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .slider-controls button {
+            background-color: #185c99;
+            color: #fff;
+            border: none;
+            border-radius: 0%;
+            width: 38px;
+            height: 38px;
+            font-size: 20px;
+            
+            cursor: pointer;
+            outline: ;
+            overflow: ;
+        
+        }
+
+    
+
+
+        /* our services styles */
+        body {
+    background-color: white; 
+    margin: 0; 
+    padding: 0; 
+    font-family: Mulish, sans-serif; 
+    }
+
+    /* Container for the entire content */
+    .containeros {
+        background-color: white;
+    max-width: 1300px; 
+    margin: 0 auto; 
+    padding: 20px; 
+    overflow: hidden; 
+    }
+
+    /* Styling for the left side */
+    .left-side {
+    float: left;
+    width: 50%;
+    padding-left: 20px;
+    }
+
+    .left-title {
+    font-size: 24px;
+    font-weight: bold;
+    padding: 20px 0;
+    }
+
+    .left-option {
+    color: #777; 
+    padding: 10px;
+    transition: background-color 0.3s; 
+    }
+
+    .left-option:hover {
+    background-color: #185c99; 
+    color: white;
+    cursor: pointer;
+    }
+
+    /* Styling for the right side */
+    .right-side {
+    float: left;
+    width: 50%;
+    height: 90%;
+    padding: 20px;
+    background-color: #185c99;
+    color: white;
+    border-radius: 2%;
+    }
+
+    .right-title {
+    font-size: 24px;
+    font-weight: bold;
+    }
+
+    .info {
+    margin-top: 10px;
+    }
+
+
+    .small-container {
+    float: left;
+    width: calc(33.33% - 20px); 
+    margin-right: 20px;
+    background-color: white;
+    border-radius: 6%;
+    margin-bottom: 20px;
+    padding: 30px;
+    }
+
+
+
+        /* .colorchange{
+            background-color: white;
+        } */
+        .gap{ 
+            width: 100px;
+            height: 100px;
+        }
+.text p {
+    color: #fff;
+    font-size: 27px;
+    font-weight: 700;
+
+    padding-left: 0;
+    margin-bottom: 0;
+    line-height: 21px;
+}
+        /* Style for the container div */
+        .containers {
+            position: relative;
+            text-align: left;
+            
+    
+        }
+
+        /* Style for the text on the left of the image */
+        .text {
+            position: absolute;
+            top: 50%;
+            left: 100px;
+            padding-left: 15%;
+        
+            color: white;
+        }
+
+    
+        .last{
+    background-color: #185c99;
+            background: cover;
+            height: 45px;
+            color: white;
+
+
+        }
+
+        .banner-card{
+            position: relative;
+        }
+        .banner-text{
+            position: absolute;
+            top: 25%;
+            color:white;
+            padding-left: 510px;
+            padding-top: 100px;
+
+        }
+
+        .banner-text h1{
+            color: white;
+            text-align: center;
+            font-size: 50px;
+            font-family: 'Mulish',sans-serif !important;
+            font-weight: bold;
+            margin-bottom: 5px;
+
+        }
+        
+.banner-card img{
+    max-width: 100%;
+    height: auto;
+
+}
+    
+        .social-logos {
+            position: absolute;
+            top: 10px;
+            right: 14%;
+        }
+
+        /* Style the individual logo links */
+        .social-logo {
+            display: inline-block;
+            margin-right: 10px;
+        }
+        h6{
+    color: white;
+    padding-left: 10%;
+    padding-top: 1%;
+}
+        .top{
+            background-color: #185c99;
+        
+            height: 45px;
+        }
+        body, h1, h2, h3, h4, h5, h6 , p , span, div, li, ul , button {
+            font-family: 'Mulish',sans-serif !important;
+        }
+        a,i,cite,em,var,address,dfn,ol,li,ul {
+            font-style: normal;
+            font-weight: 400;
+            text-decoration: none
+        }
+
+
+
+
+
+
+
+
+.container {
+            position: relative;
+            text-align: left;
+        }
+
+        .text {
+            position: absolute;
+            top: 50%;
+            left: 10px;
+            transform: translateY(-50%);
+            color: white;
+        }
+
+        .contact-button {
+            
+            background-color: white;
+            color: #185c99;
+            border: none;
+            padding: 10px 20px;
+            text-align: center;
+            text-decoration: none;
+        
+            
+            display: inline-block;
+            border-radius: 10px;
+            font-size: 16px;
+            margin-top: 10px;
+            cursor: pointer;
+            transition: background-color 0.3s, color 0.3s;
+
+        }
+
+        .contact-button:hover {
+            background-color: #185c99;
+            color: white;
+        }
+        html{
+            scroll-behavior: smooth;
+        }
+            .section{
+                width: 100%;
+                height: 300vh;
+                
+            }
+            .gotopbtn{
+                position: fixed;
+                width: 35px;
+                height: 35px;
+            color: #185c99;
+            border-radius: 50%;
+                bottom: 45px;
+                right: 50px;
+                text-decoration: none;
+                text-align:center;
+                line-height: 50px;
+                color: white;
+                font-size: 22px;
+                text-align: center;
+                background: #185c99;
+
+            }
+/* Have A Project In Mind */
+.call-do-action-area.style-seven {
+        background: url(./Project.png);
+        background-position: center center;
+        background-size: cover;
+        background-repeat: no-repeat
+    }
+    .call-do-action-area.style-seven .row.margin-toppe10 {
+        background-position: center center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        padding: 60px 10px 80px;
+
+    }
+    .call-do-action-area.style-seven .call-do-action-title h2 {
+        font-size: 35px;
+        font-weight: 700;
+        color: #fff;
+        margin-bottom: 20px;
+        
+        
+    
+    
+    }
+    .call-do-action-area.style-seven .call-do-content-text p {
+        color: #fff;
+        font-size: 27px;
+        font-weight: 700;
+        text-transform: capitalize;
+        padding-bottom: 0;
+        padding-left: 0%;
+        margin-bottom: 0;
+        line-height: 21px
+    }
+    .call-do-action-area.style-seven .call-do-button a {
+        background: #fff;
+        color: #185c99;
+        padding: 15px 34px;
+        border: 2px solid #fff;
+        float: right;
+        text-transform: uppercase;
+        font-weight: 700;
+        margin-right: 0
+    }
+    .call-do-action-area.style-seven .call-do-button {
+        margin-top: 0
+    }
+    .call-do-action-area.style-seven .call-do-button a:hover {
+        background: #185c99;
+        color: #fff
+    }
+    .call-do-content-text {
+        padding-top: 0
+    }
+    .call-do-content-text {
+        padding-top: 10px
+    }
+    .call-do-action-area.style-seven .call-do-content-text p {
+        line-height: 38px
+    }
+    .call-do-button {
+        margin-top: 55px
+    }
+    .call-do-button a {
+        background: #185c99;
+        color: #fff;
+        padding: 0px 0px;
+        border-radius: 10px;
+        transition: .5s;
+        font-size: 14px;
+        font-weight: 00;
+        display: inline-block;
+        text-decoration: none;
+    }
+    .call-do-button a:hover {
+        background: #185c99;
+        color: #fff
+    }
+
+    .span.call_demo {
+        font-size: 19px!important
+    }
+/* Have A Project In Mind */
+.call-do-action-area.style-seven {
+        background: url(./Project.png);
+        background-position: center center;
+        background-size: cover;
+        background-repeat: no-repeat
+    }
+    .call-do-action-area.style-seven .row.margin-toppe10 {
+        background-position: center center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        padding: 60px 10px 80px;
+
+    }
+    .call-do-action-area.style-seven .call-do-action-title h2 {
+        font-size: 35px;
+        font-weight: 700;
+        color: #fff;
+        margin-bottom: 20px;
+        
+        
+    
+    
+    }
+    .call-do-action-area.style-seven .call-do-content-text p {
+        color: #fff;
+        font-size: 27px;
+        font-weight: 700;
+        text-transform: capitalize;
+        padding-bottom: 0;
+        padding-left: 0%;
+        margin-bottom: 0;
+        line-height: 21px
+    }
+    .call-do-action-area.style-seven .call-do-button a {
+        background: #fff;
+        color: #185c99;
+        padding: 15px 34px;
+        border: 2px solid #fff;
+        float: right;
+        text-transform: uppercase;
+        font-weight: 700;
+        margin-right: 0
+    }
+    .call-do-action-area.style-seven .call-do-button {
+        margin-top: 0
+    }
+    .call-do-action-area.style-seven .call-do-button a:hover {
+        background: #185c99;
+        color: #fff
+    }
+    .call-do-content-text {
+        padding-top: 0
+    }
+    .call-do-content-text {
+        padding-top: 10px
+    }
+    .call-do-action-area.style-seven .call-do-content-text p {
+        line-height: 38px
+    }
+    .call-do-button {
+        margin-top: 55px
+    }
+    .call-do-button a {
+        background: #185c99;
+        color: #fff;
+        padding: 0px 0px;
+        border-radius: 10px;
+        transition: .5s;
+        font-size: 16px;
+        font-weight: 00;
+        display: inline-block;
+        text-decoration: none;
+    }
+    .call-do-button a:hover {
+        background: #185c99;
+        color: #fff
+    }
+
+    .span.call_demo {
+        font-size: 19px!important
+    }
+    .banner-card{
+    position:relative
+}
+
+.banner-text{
+    position: absolute;
+    top:38%;
+    color: #fff;
+    padding: 10px;
+    left: 16%;
+
+
+}
+
+
+.banner-text h4{
+    font-size:30px;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-bottom: 5px;
+    color: #ffffff;
+    font-family: 'Mulish',sans-serif;
+    font size: 80px;
+    
+}
+
+.banner-card{
+    position:relative
+}
+
+.section-text{
+    position: absolute;
+    top: 22%;
+    color: black;
+    padding: 10px;
+    right: 16%;
+
+
+}
+
+.section-text h6{
+    font-size:14px;
+    text-transform: uppercase;
+    font-weight: 500;
+    margin-bottom: 5px;
+    color: #ffffff;
+    font-family: 'Mulish',sans-serif;
+    font size: 80px;
+
+
+
+
+
+
+
+    
+
+    </style>
+
+</head>
+
+<!--------------------------------------------dropdown 1----------------------------------->
+<!--  sticky dropdown   
+       <header>
+    <a hred="#"class="logo"> logo</a>
+    <ul>
+    
+    <li><a href="#"> about</a></li>
+    </ul>
+    </header>
+    <section class="banner"></section> -->
+    
+
+
+<header>
+    <div class="logo">
+        <a href="home.html"><img width="130px" src="mican.png" alt=""></a>
+    </div>
+    <nav>
+        <ul>
+            <li><a href="home.html" >Home</a>
+                
+            </li>
+            <li ><a href="#">About Us</a>
+                <ul class="submenu">
+                    <li><a href="overview.html">Overview </a></li>
+                    <li><a href="team.html">Team</a></li>
+                
+                </ul>
+            </li>
+            <li><a href="services.html">Services</a>
+                <ul class="submenu">
+                    <li><a href="globaltech.html">Global Technology Solutions </a></li>
+                    
+                    <li><a href="identityam.html">Identity Access Management</a></li>
+                    <li><a href="#">Staff Augmentation</a></li>
+            </ul>
+            
+            <li><a href="clients.html">Clients</a>
+                
+            </li>
+            <li><a href="#">Careers</a>
+                <ul class="submenu">
+                    <li><a href="#">Hiring </a></li>
+                    <li><a href="#">Referrals</a></li>
+                
+            </ul>
+            <li><a href="#">Media</a>
+                <ul class="submenu">
+                    <li><a href="contact.html">News </a></li>
+                    <li><a href="gallery.html">Gallery</a></li>
+                
+            </ul>
+            
+            <li><a href="contact.html">Contact</a></li>
+            <a href="https://micantech.net/search/"  target="_blank">
+
+        
+<img src="Screenshot 2023-10-06 125334.png">
+</a>
+        </ul>
+    </nav>
+   
+</header>
+<body>
+    <section>
+
+    </section>
+    <a class="gotopbtn" href="#"> <i class="fa fa-angle-up "></i></a>
+    <!-- ---------------------dropdown 2-------------------------->
+    <!-- <div class="navbar">
+        <div class="logo">
+            
+        <img width="130px" src="mican.png" alt="Logo" width="50">
+        </div>
+        <a href="#">Home</a>
+        <div class="dropdown">
+        <button class="dropbtn">About Us</button>
+        <div class="dropdown-content">
+            <a href="#">Overview</a>
+            <a href="#">Team</a>
+        
+        </div>
+        </div>
+        <div class="dropdown">
+        <button class="dropbtn">Services</button>
+        
+        <div class="dropdown-content">
+            <a href="#">Global Technology Solutions</a>
+            <a href="#">Identity Access Management</a>
+            <a href="#">Staff Auguentation</a>
+        </div>
+        </div>
+        
+        <a href="./clients.html" style="color: black;font: size 17px; margin: 33px 10px;text-transform: capitalize;font-weight: 600;color: #232323;transition: 0.5s;">Clients</a>
+        <div class="dropdown">
+        <button class="dropbtn">Careers</button>
+        <div class="dropdown-content">
+            <a href="#">Hiring</a>
+            <a href="#">Referrals</a>
+            
+        </div>
+        </div>
+        <div class="dropdown">
+        <button class="dropbtn">Media</button>
+        <div class="dropdown-content">
+            <a href="#">News</a>
+            <a href="#">Gallery</a>
+    
+        </div>
+        </div>
+        <a href="./contact.html" style="color: black;font: size 17px; margin: 33px 10px;text-transform: capitalize;font-weight: 600;color: #232323;transition: 0.5s;">Contact Us</a>
+    </div>
+    
+
+
+<!-------------- -->
+<div class="banner-card">
+    <img  src="https://micantech.net/wp-content/uploads/2023/02/Bred-2-edit.png">
+    <div class="banner-text">
+        <h4> IDENTITY ACCESS MANAGEMENT </h4>
+    </div>
+    </div>
+    
+    
+    <div class="section-text">
+        <h6> HOME>IDENTITY  </h6>
+    
+    </div> 
+
+
+
+    <div class="dreamit-team-member-area style-two">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 col-md-12 col-sm-12">
+                    <div class="dreamit-section-title pb-30">
+                        <div class="dreamit-section-main-title">
+                            <h3 class="title-allheading text-center">IDENTITY ACCESS MANAGEMENT</h3>
+                        </div>
+                        <div class="dreamit-section-bar mt-10"></div>
+                        <p class="text-center sub-text">
+                            Smart business solutions for the evolving digital economy   
+                        </p>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-12">
+                    <div class="eael-call-to-action bg-lite">
+                        <div class="logo-heading-container">
+                            <img src="https://z9q6w4g4.rocketcdn.me/wp-content/uploads/2023/02/management1.png" class="leftimag">
+                            <h3 class="title">OKTA <br></h3>
+                        </div>
+                        <p>Businesses came across a avariety of challenges in managing user access to their application and data. the traditional approach can be error-prone, and time-consuming which lead to security breaches, compliance issues, and lost productivity. Okta is a cloud based IAM platform that provides a centralized authentication and authorization system for businesses.</p>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-12">
+                    <div class="eael-call-to-action bg-lite">
+                        <div class="logo-heading-container">
+                            <img src="https://z9q6w4g4.rocketcdn.me/wp-content/uploads/2022/12/c-sharp.png" class="leftimag">
+                            <h3 class="title">FORGEROCK<br> </h3>
+                        </div>
+                        <p>ForgeRock is a market leader in providing identity and access management solutions that help businesses across the world to secure access to their digital services, applications, and devices. Its comprehensive and flexible platform enables organizations to manage identities and automate access controls, preventing unauthorized access to critical resources. </p>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-12">
+                    <div class="eael-call-to-action bg-lite">
+                        <div class="logo-heading-container">
+                            <img src="https://z9q6w4g4.rocketcdn.me/wp-content/uploads/2022/12/database.png" class="leftimag">
+                            <h3 class="title">SAILPOINT <br></h3>
+                        </div>
+                        <p>Identity security is crucial to modern businesses and the ability to do it effectiely is way beyond human capacity. That's where SailPoint sets itself apart.The SailPoint Identity Security Clod Platform is designed to cater the sophisticcated needs of today's modern businesses, providing a smart,        stand-alone identity base that securely powers your business.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <!-- Have A Project ? -->
+    <div class="call-do-action-area style-seven calactionabout">
+        <div class="container">
+            <div class="row margin-toppe10 align-items-center">
+                <div class="col-lg-9 col-md-8">
+                    <div class="dreamit-call-do-action-content">
+                        <div class="call-do-content-text">
+                            <p>Need Help?<br><span class="call_demo">Just Reach Out To Us.
+                                <br>
+                                All Our Business Relationships Have Started With 'Hello'
+                            </span></p>
+                            
+                            
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-4">
+                    <div class="call-do-button">
+                        <a href="contact.html">ContactUs</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--------------------------------------------------------------------------------------------------------->
+    <!-- Trusted Software Development Company -->
+    
+
+    <div class="dreamit-team-member-area style-two">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-12 col-md-12 col-sm-12">
+              <div class="dreamit-section-title pb-30">
+                <div class="dreamit-section-main-title">
+                  <h3 class="title-allheading text-center">Our Clients</h3>
+                
+                <p class="text-center sub-text">
+                
+              
+                <div class="dreamit-section-bar mt-10"></div>
+                <p class="text-center sub-text">
+                  
+Mican currently works with industry leaders and enjoys a long-standing and mutually-beneficial relationship with several Fortune 500 organizations.
+                </p>
+              </div>
+            </div>
+          </div>
+      
+            <!---->
+      
+            <div class="slides">
+              <div class="slider">
+              
+                <div class="slide">
+                  <img  src="https://z9q6w4g4.rocketcdn.me/wp-content/uploads/2023/04/leaderquest-2-300x131.png" alt="Logo 1">
+                </div>
+                <div class="slide">
+                  <img  src="https://z9q6w4g4.rocketcdn.me/wp-content/uploads/2023/04/interline-1-300x131.png" alt="Logo 2">
+                </div>
+                <div class="slide">
+                  <img  src="https://z9q6w4g4.rocketcdn.me/wp-content/uploads/2023/04/csx-1-300x131.png" alt="Logo 3">
+                </div>
+                <div class="slide">
+                  <img  src="https://z9q6w4g4.rocketcdn.me/wp-content/uploads/2023/04/csm-bakery-solutions-300x131.png" alt="Logo 4">
+                </div>
+                <div class="slide">
+                  <img  src="https://z9q6w4g4.rocketcdn.me/wp-content/uploads/2023/04/crowley-1-300x131.png" alt="Logo 5">
+                </div>
+                <div class="slide">
+                  <img  src="https://z9q6w4g4.rocketcdn.me/wp-content/uploads/2023/04/credit-acceptance-300x131.png" alt="Logo 6">
+                </div>
+                <div class="slide">
+                  <img  src="https://z9q6w4g4.rocketcdn.me/wp-content/uploads/2023/04/cmc-1-300x131.png" alt="Logo 7">
+                </div>
+                <div class="slide">
+                  <img  src="https://z9q6w4g4.rocketcdn.me/wp-content/uploads/2023/04/christus-health-1-300x131.png" alt="Logo 8">
+                </div>
+                <div class="slide">
+                  <img  src="https://z9q6w4g4.rocketcdn.me/wp-content/uploads/2023/04/catalis-1-300x131.png" alt="Logo 9">
+                </div>
+                <div class="slide">
+                  <img  src="https://z9q6w4g4.rocketcdn.me/wp-content/uploads/2023/04/americold-1-300x131.png" alt="Logo 10">
+                </div>
+                <div class="slide">
+                  <img  src="https://z9q6w4g4.rocketcdn.me/wp-content/uploads/2023/09/TennCare-300x131.png" alt="Logo 11">
+                </div>
+                <div class="slide">
+                  <img  src="https://z9q6w4g4.rocketcdn.me/wp-content/uploads/2023/04/vsp-vision-300x131.png" alt="Logo 12">
+                </div>
+                <div class="slide">
+                  <img  src="https://z9q6w4g4.rocketcdn.me/wp-content/uploads/2023/04/vaccon-1-300x131.png" alt="Logo 13">
+                </div>
+                <div class="slide">
+                  <img  src="https://z9q6w4g4.rocketcdn.me/wp-content/uploads/2023/04/national-grid-300x131.png" alt="Logo 14">
+                </div>
+                <div class="slide">
+                  <img  src="https://z9q6w4g4.rocketcdn.me/wp-content/uploads/2023/04/miami-1-300x131.png" alt="Logo 15">
+                </div>
+                
+                
+              </div>
+              <div class="slider-controls">
+                <button id="prev-slide">&#9664;</button>
+                <button id="next-slide">&#9654;</button>
+              </div>
+            </div>
+
+<!--------------------------------------NOT WORKING --------------------------------------------------------------------------------------------------------------------------------------------->
+
+<br>
+
+</div>
+        </div>
+
+</style>
+<br>
+</div>
+        </div>
+        <div class="flex-container footer">
+            <div class="flex-box">
+                <img  width="150px"    src="mican.png" alt="Mican Technologies, Inc. Logo">
+                <p>Mican Technologies, Inc. is a globally trusted IT services company with over 17 years of experience. We leverage new technologies to transform businesses for a digital future. From start-ups to Fortune 500 companies, we provide IT consulting and custom software development services to clients across various verticals.</p>
+            </div>
+    
+            <div class="flex-box">
+                <h5 class="quick-links">Quick Links</h5>
+            <p> Overview</p>
+            <p>BPO</p>
+            <p>C#</p>
+            <p>.NET</p>
+            <p>Database</p>
+            <p> Hadoop</p>
+            <p>IAM</p>
+            <p>Java</p>
+            <p>Mobile Application</p>
+            </div>
+            <div class="flex-box">
+                <h5 class="contact-info">Contact Info</h5>
+                <br>
+                <h5>Head Office - Delaware</h5>
+                <p>Mican Technologies Inc</p>
+                <p>2500 Wrangle Hill Road</p>
+                <p>Suite # 224</p>
+                <p>Bear DE 19701</p>
+                <h5>Phone: </h5>
+                <p>302-703-0708</p>
+                <h5>FAX: </h5>
+                <p>302-703-0709</p>
+                <p>Email: info@micantech.net</p>
+            </div>
+            <div class="flex-box">
+                <br>
+                <br>
+                <h5>Branch Office</h5>
+                <p>4600 Touchton Road East</p>
+                <p>Building 100</p>
+                <p>Suite # 260</p>
+                <p>Jacksonville FL 32246</p>
+                <h5>Phone: </h5>
+                <p>302-703-0708</p>
+                <h5>FAX: </h5>
+                <p>302-703-0709</p>
+                <p>Email: info@micantech.net</p>
+            </div>
+        </div>
+                                    </div>
+                                    </div>
+
+                                    </div>
+                                    </div>
+
+                                
+                                </div>
+                            </div>
+        
+                </div>
+        
+                    </div>
+        
+                </div>
+            </div>
+            <div class="last">
+        
+
+
+            <div class="last">
+                <h6> Copyright  2023 Mican Technologies Inc. All rights reserved.</h6>
+
+            </div>
+<!----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------->
+
+    <!-- Bootstrap JS -->
+    <script defer="" src="https://z9q6w4g4.rocketcdn.me/wp-content/themes/micantech/js/bootstrap.min.js" data-rocket-status="executed"></script>
+    <script src="script.js"></script>
+</body>
+</html>

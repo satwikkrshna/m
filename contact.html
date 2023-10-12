@@ -1,0 +1,554 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<title>Contact Us | Software Consulting</title>
+	<link rel="icon" type="image/png"  href="mican.png">
+	
+	<div class="top">
+	
+		<h6> <img width="15px"  src="mail.png" alt="">info@micantech.net <img width="15px"  src="phn.png" alt="">302-703-0708 </h6>
+		
+	</div>
+
+	<div class="social-logos">
+		<a class="social-logo" href="https://www.facebook.com/www.micantech.net/">
+			<img src="fb.png" alt="Facebook" width="20" height="20">
+		</a>
+
+		<!-- Twitter logo with a link -->
+		<a class="social-logo" href="https://twitter.com/Mican_Tech">
+			<img src="twitter.png" alt="Twitter" width="20" height="20">
+		</a>
+
+		<!-- Instagram logo with a link -->
+		<a class="social-logo" href="https://www.instagram.com/Mican_Tech/m">
+			<img src="ig.png" alt="Instagram" width="20" height="20">
+		</a>
+
+		<!-- LinkedIn logo with a link -->
+		<a class="social-logo" href="https://www.linkedin.com/company/mican-technologies/">
+			<img src="in.png" alt="LinkedIn" width="20" height="20">
+		</a>
+	</div>
+	
+	<br>
+
+	<!-- External CSS -->
+	<link rel="stylesheet" href="contactstyles.css">
+	<!-- Bootstrap CSS -->
+	<link rel="stylesheet" href="https://z9q6w4g4.rocketcdn.me/wp-content/themes/micantech/css/bootstrap.min.css" type="text/css" media="all">
+	
+	<style>
+		header{
+display: flex;
+justify-content: space-between;
+align-items: center;
+width: 100%;
+padding: 0 200px;
+border-bottom: 1px solid black;
+}
+
+header ul li{
+display: inline-block;
+list-style: none;
+margin: 0 20px;
+}
+
+header ul li:last-child{
+margin-right: 0;
+}
+header ul li a{
+text-decoration: none;
+color: #42424a;
+padding: 22px 0;
+display: inline-block;
+transition: all ease 0.1s;
+font-size: 18px;
+}
+header ul li a:hover{
+
+}
+
+/* submenu style */
+header ul .submenu{
+position: absolute;
+width: 200px;
+background-color: #ffffff;
+border-radius: 5%;
+box-shadow: 0 20px 45px #00000020;
+margin-top: -50px;
+opacity: 0;
+z-index: -999;
+transition: all ease 0.5s;
+}
+header ul li:hover .submenu{
+z-index: 99;
+opacity: 1;
+margin-top: 0;
+}
+header ul .submenu li{
+margin: 0;
+width: 100%;
+} 
+header ul .submenu li a{
+padding: 5px 5px;
+display: inline-block;
+width: 100%;
+}
+
+.hero_sec{
+display: flex;
+justify-content: left;
+align-items: left;
+height: 100vh;
+}
+
+		
+
+		/*
+		*{
+			margin: ;
+			padding: 0;
+			font-family:sans-serif ;
+			box-sizing: border-box;
+		}
+
+		.flex-container{
+			width: 100%;
+			height: auto;
+			display: flex;
+		}
+		.flex-box{
+			width: 200px;
+			height: 200px;
+			background: linear-gradient(white);
+			color: black;
+			font-size: 15px;
+			text-align: center;
+			line-height: 200px;
+			border-radius: 20px;
+		}
+		*/
+		body, h1, h2, h3, h4, h5, h6 , p , span, div, li, ul , button {
+			font-family: 'Mulish',sans-serif !important;
+		}
+		.top{
+			background-color: #185c99;
+		
+			height: 45px;
+		}
+.last{
+	background-color: #185c99;
+			
+			height: 45px;
+			color: white;
+
+
+		}
+
+	
+.menu_bar{
+	background-color: white;
+	
+	float: left;
+
+	
+}
+.element.style {
+    z-index: 3;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    padding: 0px;
+    border-width: 0px;
+    margin: 0px;
+    left: 0px;
+    top: 0px;
+    touch-action: pan-x pan-y;
+}
+
+.top{
+	color: white;
+}
+		
+h6{
+	color: white;
+	padding-left: 10%;
+	padding-top: 1%;
+}
+.social-logos {
+            position: absolute;
+            top: 10px;
+            right: 14%;
+        }
+
+        /* Style the individual logo links */
+        .social-logo {
+            display: inline-block;
+            margin-right: 10px;
+        }
+		
+	</style>
+	<header>
+		<div class="logo">
+			<a href="home.html"><img width="130px" src="mican.png" alt=""></a>
+		</div>
+		<nav>
+			<ul>
+				<li><a href="home.html">Home</a>
+					
+				</li>
+				<li><a href="#">About Us</a>
+					<ul class="submenu">
+						<li><a href="overview.html">Overview </a></li>
+						<li><a href="#">Team</a></li>
+					
+					</ul>
+				</li>
+				<li><a href="services.html">Services</a>
+					<ul class="submenu">
+						<li><a href="globaltech.html">Global Technology Solutions </a></li>
+						<li><a href="identityam.html">Identity Access Management</a></li>
+						<li><a href="#">Staff Augmentation</a></li>
+				</ul>
+				
+				<li><a href="clients.html">Clients</a>
+					
+				</li>
+				<li><a href="#">Careers</a>
+					<ul class="submenu">
+						<li><a href="#">Hiring </a></li>
+						<li><a href="#">Referrals</a></li>
+					
+				</ul>
+				<li><a href="#">Media</a>
+					<ul class="submenu">
+						<li><a href="#">News </a></li>
+						<li><a href="gallery.html">Gallery</a></li>
+					
+				</ul>
+				
+				<li><a href="contact.html">Contact</a></li>
+				<a href="https://micantech.net/search/"  target="_blank">
+
+        
+					<img src="Screenshot 2023-10-06 125334.png">
+				  </a>
+			</ul>
+		</nav>
+	
+	</header>
+	<body>
+		<section>
+
+
+<div class="banner-card">
+<img  src="https://micantech.net/wp-content/uploads/2023/02/Bred-2-edit.png">
+<div class="banner-text">
+	<h4> Contact Us</h4>
+</div>
+</div>
+
+
+<div class="section-text">
+	<h6> HOME>CONTACT   </h6>
+
+</div>
+
+<br>
+</head>
+<a>
+
+
+	<a class="gotopbtn" href="#"><i class="fa-sharp fa-solid fa-angle-up"></i></a>
+	<!-- Contact US -->
+	<div class="dreamit-team-member-area style-two">
+
+		<div class="container">
+			<div class="row">
+
+				<div class="col-lg-6 col-md-6 col-sm-12 contactaddressleft">
+					<div class="dreamit-section-title borderall border1 pb-0">
+						<div class="dreamit-section-main-title">
+							<h3 class="title-allheading">Contact Address</h3>
+						</div>
+						<!-- Image is used here instead of code-->
+
+						<img src="pics.png">
+						
+						<div class="dreamit-section-bar mt-10 leftbottombar"></div>
+						
+						<div class="contact_from style-two mt-50">
+
+
+							<!-- Images URL used to twice to get the images left and right-->
+							<div class="row mx-0 px-0">
+								<div class="col-md-6">
+									<div class="dreamit-contact-content d-flex">
+										<div class="contact-icon">
+											<img src="https://z9q6w4g4.rocketcdn.me/wp-content/themes/micantech/images/Location.png" class="mail" alt="Head Office - Delaware" title="Head Office - Delaware">
+										</div>
+										<div class="contact-title">
+											<h2>Head Office - Delaware</h2>
+											<span>
+												Mican Technologies Inc<br>2500 Wrangle Hill Road<br>Suite # 224<br>Bear DE 19701<br>
+											</span>									
+										</div>
+									</div>
+							
+									<div class="dreamit-contact-content d-flex">
+										<div class="contact-icon">
+											<img src="https://z9q6w4g4.rocketcdn.me/wp-content/themes/micantech/images/Call.png" class="mail" alt="Call" title="call">
+						
+						
+										</div>
+										<div class="contact-title">
+											<h2>Phone</h2>
+											<span><a href="tel:302-703-0708" class="texttt">302-703-0708</a></span>
+										</div>
+									</div>
+
+									<div class="dreamit-contact-content d-flex">
+										<div class="contact-icon">
+											<img src="https://z9q6w4g4.rocketcdn.me/wp-content/uploads/2023/03/Fax.png" class="mail" alt="Fax" title="Fax">
+										</div>
+										<div class="contact-title">
+											<h2>FAX</h2>
+											<span><a href="Fax:302-703-0709" class="texttt">302-703-0709</a></span>
+										</div>
+									</div>
+
+									<div class="dreamit-contact-content d-flex">
+										<div class="contact-icon">
+											<img src="https://z9q6w4g4.rocketcdn.me/wp-content/themes/micantech/images/Mail.png" class="mail" alt="Email" title="Email">
+										</div>
+										<div class="contact-title">
+											<h2>Email</h2>
+											<span><a href="mailto:info@micantech.net" class="texttt"> info@micantech.net</a></span>
+										</div>
+									</div>
+								</div>
+								<div class="col-md-6">
+									<div class="dreamit-contact-content d-flex">
+										<div class="contact-icon">
+											<img src="https://z9q6w4g4.rocketcdn.me/wp-content/themes/micantech/images/Location.png" class="mail" alt="Branch Office - Florida" title="Branch Office - Florida">
+										</div>
+										<div class="contact-title">
+											<h2>Branch Office - Florida</h2>
+											<span>4600 Touchton Road East<br>Building 100<br>Suite # 260<br>Jacksonville FL 32246 </span>
+										</div>
+									</div>
+									<div class="dreamit-contact-content d-flex">
+										<div class="contact-icon">
+												<img src="https://z9q6w4g4.rocketcdn.me/wp-content/themes/micantech/images/Call.png" class="mail" alt="Call" title="Call">
+										</div>
+										<div class="contact-title">
+											<h2>Phone</h2>
+											<span><a href="tel:904-267-0909" class="texttt"> 904-267-0909</a></span>
+										</div>
+									</div>
+									<div class="dreamit-contact-content d-flex">
+										<div class="contact-icon">
+											<img src="https://z9q6w4g4.rocketcdn.me/wp-content/uploads/2023/03/Fax.png" class="mail" alt="Fax" title="Fax">
+										</div>
+										<div class="contact-title">
+											<h2>FAX</h2>
+											<span><a href="Fax:904-267-0908" class="texttt"> 904-267-0908</a></span>
+										</div>
+									</div>
+									<div class="dreamit-contact-content d-flex">
+										<div class="contact-icon">
+												<img src="https://z9q6w4g4.rocketcdn.me/wp-content/themes/micantech/images/Mail.png" class="mail" alt="Email" title="Email">
+										</div>
+										<div class="contact-title">
+											<h2>Email</h2>
+											<span><a href="mailto:info@micantech.net" class="texttt"> info@micantech.net</a></span>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="col-lg-6 col-md-6 col-sm-12 contactaddressright">
+					<div class="dreamit-section-title borderall">
+						<div class="wpcf7 js" id="wpcf7-f306-o1" lang="en-US" dir="ltr">
+							<div class="screen-reader-response"><p role="status" aria-live="polite" aria-atomic="true"></p> <ul></ul></div>
+								<form action="" method="post" class="wpcf7-form theme_0 errorMsgshow init" aria-label="Contact form" novalidate="novalidate" data-status="init">
+								
+									<div class="dreamit-section-main-title">
+										<h3 class="title-allheading">Send a Message</h3>
+									</div>
+
+
+									<!-- Image is used instead of code here-->
+									<img src="pics.png">
+							
+									<div class="dreamit-section-bar mt-10 leftbottombar"></div>
+									<div class="contact_from style-two mt-50">
+										<div class="row">
+											<div class="col-lg-12">
+												<div class="form_box mb-3">
+													<p><label>Name*</label><span class="wpcf7-form-control-wrap" data-name="text-185"><input size="40" class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required form-control required" style="background-color: #f0f6ff; color: #212529; border: 1px solid #f0f6ff;" aria-required="true" aria-invalid="false" value="" type="text" name="text-185"></span></p>
+												</div>
+											</div>
+											<div class="col-lg-12">
+												<div class="form_box mb-3">
+													<p><label>Email*</label><span class="wpcf7-form-control-wrap" data-name="email-439"><input size="40" class="wpcf7-form-control wpcf7-text wpcf7-email wpcf7-validates-as-required wpcf7-validates-as-email form-control required email" style="background-color: #f0f6ff; color: #212529; border: 1px solid #f0f6ff;" aria-required="true" aria-invalid="false" value="" type="email" name="email-439"></span></p>
+												</div>
+											</div>
+											<div class="col-lg-12">
+												<div class="form_box mb-3">
+													<p><label>Phone Number</label><span class="wpcf7-form-control-wrap" data-name="tel-808"><input size="40" class="wpcf7-form-control wpcf7-text wpcf7-tel wpcf7-validates-as-required wpcf7-validates-as-tel form-control required" style="background-color: #f0f6ff; color: #212529; border: 1px solid #f0f6ff;" aria-required="true" aria-invalid="false" value="" type="tel" name="tel-808"></span>
+													</p>
+												</div>
+											</div>
+											<div class="col-lg-12">
+												<div class="form_box mb-3">
+													<p><label>Company*</label><span class="wpcf7-form-control-wrap" data-name="text-188"><input size="40" class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required form-control required" style="background-color: #f0f6ff; color: #212529; border: 1px solid #f0f6ff;" aria-required="true" aria-invalid="false" value="" type="text" name="text-188"></span></p>
+												</div>
+											</div>
+				<div class="col-lg-12">
+												<div class="form_box  mb-3">
+													<p><label>How can we help you?*</label><br><span class="wpcf7-form-control-wrap" data-name="menu-159"><select class="wpcf7-form-control wpcf7-select wpcf7-validates-as-required form-control required" style="background-color: #f0f6ff; color: #212529; border: 1px solid #f0f6ff;" aria-required="true" aria-invalid="false" name="menu-159"><option value="">— Please choose an option —</option><option value="Interested in MicanTech’s services">Interested in MicanTech’s services</option><option value="I want to offer my services to MicanTech">I want to offer my services to MicanTech</option><option value="Partnership proposal/request">Partnership proposal/request</option><option value="Other">Other</option></select></span></p>
+												</div>
+											</div>
+											<div class="col-lg-12">
+												<div class="form_box mb-1">
+													<p><label>Your Comment</label><br><span class="wpcf7-form-control-wrap" data-name="textarea-420"><textarea cols="40" rows="10" class="wpcf7-form-control wpcf7-textarea wpcf7-validates-as-required form-control required" style="background-color: #f0f6ff; color: #212529; " aria-required="true" aria-invalid="false" name="textarea-420"></textarea></span></p>
+												</div>
+												<span class="wpcf7-form-control-wrap recaptcha" data-name="recaptcha"><span data-sitekey="6LfKIo0lAAAAAAPQ1q8Wsxoy8rymuj9SSThobbgw" class="wpcf7-form-control g-recaptcha wpcf7-recaptcha"></span>
+													<noscript>
+														<div class="grecaptcha-noscript">
+															<iframe src="https://www.google.com/recaptcha/api/fallback?k=6LfKIo0lAAAAAAPQ1q8Wsxoy8rymuj9SSThobbgw" frameborder="0" scrolling="no" width="310" height="430"></iframe>
+															<textarea name="g-recaptcha-response" rows="3" cols="40" placeholder="reCaptcha Response Here"></textarea>
+														</div>
+													</noscript>
+												</span>
+												<div class="quote_btn text_center pt-3">
+													<p>
+														<input class="wpcf7-form-control has-spinner wpcf7-submit btn" type="submit" value="Let’s Get Started"><span class="wpcf7-spinner"></span>
+													</p>
+												</div>
+											</div>
+</div>
+									</div>
+									<div class="wpcf7-response-output" aria-hidden="true"></div>
+								</form>
+							</div>
+						</div>
+					</div>
+				</div>
+
+			</div>
+		</div>
+
+
+<br>
+<br>
+
+		
+			<div class="row">
+				<div class="col-md-6">
+					<!-- Google Maps Link 1 -->
+	
+
+	<p><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3073.9707925141865!2d-75.71658078818687!3d39.60534040450443!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c7a81ffd395381%3A0xe9ba101e12968d26!2sMican%20Technologies%20Inc!5e0!3m2!1sen!2sin!4v1694597874551!5m2!1sen!2sin" width="940" height="440" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></p>
+	</div>
+
+
+	<div class="col-md-6">
+		<!-- Google Maps Link 2 -->
+
+	<p><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3447.615098523698!2d-81.58684408851482!3d30.219531210148343!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88e5ca3657d93d77%3A0x504b6957a4906eda!2sMican%20Technologies%20Inc!5e0!3m2!1sen!2sin!4v1694598129243!5m2!1sen!2sin" width="940" height="440" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></p>
+
+</div>
+
+
+<style>
+
+	
+
+.flex-container.footer{ background: #f0f6ff;}
+
+</style>
+<br>
+</div>
+		</div>
+		<div class="flex-container footer">
+			<div class="flex-box">
+				<img  width="150px"    src="mican.png" alt="Mican Technologies, Inc. Logo">
+				<p>Mican Technologies, Inc. is a globally trusted IT services company with over 17 years of experience. We leverage new technologies to transform businesses for a digital future. From start-ups to Fortune 500 companies, we provide IT consulting and custom software development services to clients across various verticals.</p>
+			</div>
+	
+			<div class="flex-box">
+				<h5 class="quick-links">Quick Links</h5>
+			<p> Overview</p>
+			<p>BPO</p>
+			<p>C#</p>
+			<p>.NET</p>
+			<p>Database</p>
+			<p> Hadoop</p>
+			<p>IAM</p>
+			<p>Java</p>
+			<p>Mobile Application</p>
+			</div>
+			<div class="flex-box">
+				<h5 class="contact-info">Contact Info</h5>
+				<br>
+				<h5>Head Office - Delaware</h5>
+				<p>Mican Technologies Inc</p>
+				<p>2500 Wrangle Hill Road</p>
+				<p>Suite # 224</p>
+				<p>Bear DE 19701</p>
+				<h5>Phone: </h5>
+				<p>302-703-0708</p>
+				<h5>FAX: </h5>
+				<p>302-703-0709</p>
+				<p>Email: info@micantech.net</p>
+			</div>
+			<div class="flex-box">
+				<br>
+				<br>
+				<h5>Branch Office</h5>
+				<p>4600 Touchton Road East</p>
+				<p>Building 100</p>
+				<p>Suite # 260</p>
+				<p>Jacksonville FL 32246</p>
+				<h5>Phone: </h5>
+				<p>302-703-0708</p>
+				<h5>FAX: </h5>
+				<p>302-703-0709</p>
+				<p>Email: info@micantech.net</p>
+			</div>
+		</div>
+									</div>
+									</div>
+
+									</div>
+									</div>
+
+								
+								</div>
+							</div>
+		
+				</div>
+		
+					</div>
+		
+				</div>
+			</div>
+
+			
+			<div class="last">
+				<h6> Copyright  2023 Mican Technologies Inc. All rights reserved.</h6>
+
+			</div>
+	<!-- Bootstrap JS -->
+	<script defer="" src="https://z9q6w4g4.rocketcdn.me/wp-content/themes/micantech/js/bootstrap.min.js" data-rocket-status="executed"></script>
+</body>
+</html>

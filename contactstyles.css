@@ -1,0 +1,859 @@
+@import url(https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap);html,body {
+    overflow-x: hidden
+}
+
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+body {
+    color: #616161;
+    font-family: 'Mulish',sans-serif;
+    font-style: normal;
+    font-size: 16px;
+    line-height: 1.3;
+    letter-spacing: 0;
+    font-weight: 400;
+    font-style: normal;
+    transition: .5s;
+    margin-bottom: 0;
+    padding-top: 0;
+}
+
+div {
+    display: block;
+}
+
+img {
+    vertical-align: middle;
+}
+
+p {
+    font-weight: 400;
+    font-style: normal;
+    line-height: 1.8
+}
+
+h1,h2,h3,h4,h5,h6 {
+    color: #232323;
+    font-family: 'Mulish',sans-serif;
+    font-style: normal;
+    line-height: 1.5;
+    font-weight: 700
+}
+h1 {
+    font-size: 50px
+}
+
+h3 {
+    font-size: 30px
+}
+
+.mt-10 {
+    margin-top: 10px
+}
+
+.mt-50 {
+    margin-top: 50px
+}
+
+.pb-30 {
+    padding-bottom: 30px
+}
+
+.text-center {
+    text-align: center!important;
+}
+
+.d-flex {
+    display: flex!important;
+}
+
+
+/* Logo Heading */
+.logo-heading-container {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+h3.title {
+    FONT-WEIGHT: 800;
+    font-size: 21px
+}
+
+
+/* Image */
+.text-center {
+    text-align: center!important;
+    margin-bottom: 21px;
+}		
+.imagformobile {
+    margin-bottom: 21px
+}
+.overlap1 img, .trusteslogos, .choose-us-title .overlap img {
+    height: auto !important;
+}
+
+.trusteslogos {
+    width: 100%;
+}
+
+/* Section Title */
+.dreamit-section-title.borderall {
+    margin: AUTO;
+    padding: 50px;
+    border: 1px solid #aec6ef;
+    border-radius: 10px
+}
+h3.title-allheading {
+    color: #185c99;
+    font-weight: 800;
+    text-transform: uppercase;
+    font-size: 25px;
+    line-height: 30px;
+}
+
+
+
+/* Content Text */
+.dreamit-section-content-text p {
+    font-size: 16px;
+    margin: 31px 0 13px;
+    line-height: 1.6;
+    width: 97%;
+    text-align: justify;
+}
+.contentforloacal {
+    text-align: justify!important;
+    line-height: 1.8!important;
+    margin: 0px!important;
+    width: 100%!important
+}
+p.contentforloacal {
+    width: 100%!important;
+    margin: 0px!important
+}
+
+
+
+/*  */
+.dreamit-team-member-area {
+    padding: 90px 0 80px
+}
+.leftbottombar {
+    margin: unset!important;
+    margin-top: 16px!important;
+    margin-bottom: 16px!important
+}
+.dreamit-section-bar.mt-10.leftbottombar {
+    margin-top: 16px!important;
+    margin-bottom: 16px!important
+}
+.dreamit-team-member-area .dreamit-section-content-text p {
+    line-height: 1.8;
+    margin: 29px 0 0;
+    width: 97%
+}
+.dreamit-section-content-text p {
+    font-size: 16px;
+    margin: 31px 0 13px;
+    line-height: 1.6
+}
+.dreamit-section-content-text p {
+    text-align: justify
+}
+.choose-us-single-box1 {
+    text-align: center;
+    padding: 13px 26px 38px;
+    margin-bottom: 30px;
+    position: relative;
+    transition: .5s;
+    overflow: hidden;
+    z-index: 1;
+    padding: 15px 30px 8px;
+    border: 1px solid #fff;
+    border-radius: 10px
+}
+
+.choose-us-single-box1:hover {
+    text-align: center;
+    background: #f0f6ff;
+    padding: 13px 26px 38px;
+    margin-bottom: 30px;
+    position: relative;
+    transition: .5s;
+    overflow: hidden;
+    z-index: 1;
+    padding: 15px 30px 8px;
+    border: 1px solid #fff;
+    border-radius: 10px
+}
+
+.choose-us-title .overlap {
+    text-align: center
+}
+
+.overlap img:hover {
+    transform: scale(1)
+}
+
+.choose-us-title h2 {
+    font-size: 20px;
+    margin: 20px 0 9px 0;
+    font-weight: 700
+}
+
+.overlap {
+    text-align: right
+}
+
+.choose-us-single-box h2 {
+    color: #185c99!important
+}
+
+/* Contact Address */
+.dreamit-section-title.borderall {
+    margin: AUTO;
+    padding: 50px;
+    border: 1px solid #aec6ef;
+    border-radius: 10px
+}
+
+.border1 {
+    border: none!important
+}
+
+.dreamit-contact-area {
+    padding: 80px 0 34px
+}
+
+.dreamit-contact-content {
+    margin-bottom: 30px;
+    border-radius: 10px;
+    transition: .5s
+}
+
+.dreamit-contact-content:hover {
+    border-color: #185c99
+}
+
+.contact-icon img {
+    margin-top: 8px;
+    box-shadow: 0 0 0 rgb(72 73 121 / 15%);
+    padding: 0;
+    border: 0 solid #fff;
+    border-radius: 0
+}
+
+.contact-icon i {
+    height: 60px;
+    width: 60px;
+    line-height: 60px;
+    text-align: center;
+    background: #edebff;
+    font-size: 35px;
+    color: #185c99;
+    border-radius: 100%;
+    transition: .5s;
+    display: inline-block
+}
+
+.dreamit-contact-content:hover .contact-icon i {
+    background: #185c99;
+    color: #fff
+}
+
+.contact-title {
+    margin-left: 19px
+}
+
+.contact-title h2 {
+    font-size: 20px;
+    text-transform: capitalize;
+    font-weight: 700;
+    margin: 0 0 5px
+}
+
+.contact-title span {
+    line-height: 1.6
+}
+
+/* Contact us */
+
+
+.dreamit-section-title.borderall {
+    margin: AUTO;
+    padding: 50px;
+    border: 1px solid #aec6ef;
+    border-radius: 10px
+}
+
+.wpcf7 .screen-reader-response {
+    position: absolute;
+    overflow: hidden;
+    clip: rect(1px,1px,1px,1px);
+    clip-path: inset(50%);
+    height: 1px;
+    width: 1px;
+    margin: -1px;
+    padding: 0;
+    border: 0;
+    word-wrap: normal!important
+}
+
+form {
+    display: block;
+    margin-top: 0em;
+    margin-block-end: 1em;
+}
+
+textarea.form-control {
+    min-height: calc(1.5em + .75rem + 2px);
+}
+.form-control {
+    display: block;
+    width: 100%;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 2.3;
+    color: #212529;
+    background-color: #f0f6ff;
+    background-clip: padding-box;
+    border: 1px solid #f0f6ff;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    border-radius: .25rem;
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+
+textarea.wpcf7-form-control.wpcf7-textarea.wpcf7-validates-as-required.form-control {
+    height: 70px
+}
+
+/*  */
+
+.wpcf7 form .wpcf7-response-output {
+    margin: 2em .5em 1em;
+    padding: .2em 1em;
+    border: 2px solid #00a0d2
+}
+
+.wpcf7 form .wpcf7-response-output {
+    margin: 2em .5em 1em;
+    padding: .2em 1em;
+    border: 2px solid #00a0d2
+}
+
+.wpcf7 form.init .wpcf7-response-output,.wpcf7 form.resetting .wpcf7-response-output,.wpcf7 form.submitting .wpcf7-response-output {
+    display: none
+}
+
+.wpcf7 form.sent .wpcf7-response-output {
+    border-color: #46b450
+}
+
+.wpcf7 form.failed .wpcf7-response-output,.wpcf7 form.aborted .wpcf7-response-output {
+    border-color: #dc3232
+}
+
+.wpcf7 form.spam .wpcf7-response-output {
+    border-color: #f56e28
+}
+
+.wpcf7 form.invalid .wpcf7-response-output,.wpcf7 form.unaccepted .wpcf7-response-output,.wpcf7 form.payment-required .wpcf7-response-output {
+    border-color: #ffb900
+}
+
+.wpcf7-form-control-wrap {
+    position: relative
+}
+
+.wpcf7-not-valid-tip {
+    color: #dc3232;
+    font-size: 1em;
+    font-weight: 400;
+    display: block
+}
+
+.use-floating-validation-tip .wpcf7-not-valid-tip {
+    position: relative;
+    top: -2ex;
+    left: 1em;
+    z-index: 100;
+    border: 1px solid #dc3232;
+    background: #fff;
+    padding: .2em .8em;
+    width: 24em
+}
+
+.wpcf7-list-item {
+    display: inline-block;
+    margin: 0 0 0 1em
+}
+
+.wpcf7-list-item-label::before,.wpcf7-list-item-label::after {
+    content: " "
+}
+
+.wpcf7-spinner {
+    visibility: hidden;
+    display: inline-block;
+    background-color: #23282d;
+    opacity: .75;
+    width: 24px;
+    height: 24px;
+    border: none;
+    border-radius: 100%;
+    padding: 0;
+    margin: 0 24px;
+    position: relative
+}
+
+form.submitting .wpcf7-spinner {
+    visibility: visible
+}
+
+.wpcf7-spinner::before {
+    content: '';
+    position: absolute;
+    background-color: #fbfbfc;
+    top: 4px;
+    left: 4px;
+    width: 6px;
+    height: 6px;
+    border: none;
+    border-radius: 100%;
+    transform-origin: 8px 8px;
+
+    animation-name: spin;
+    animation-duration: 1000ms;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite
+}
+
+@media (prefers-reduced-motion:reduce) {
+    .wpcf7-spinner::before {
+        animation-name: blink;
+        animation-duration: 2000ms
+    }
+}
+
+@keyframes spin {
+    from {
+        transform: rotate(0deg)
+    }
+
+    to {
+        transform: rotate(360deg)
+    }
+}
+
+@keyframes blink {
+    from {
+        opacity: 0
+    }
+
+    50% {
+        opacity: 1
+    }
+
+    to {
+        opacity: 0
+    }
+}
+
+.wpcf7 input[type="file"] {
+    cursor: pointer
+}
+
+.wpcf7 input[type="file"]:disabled {
+    cursor: default
+}
+
+.wpcf7 .wpcf7-submit:disabled {
+    cursor: not-allowed
+}
+
+.wpcf7 input[type="url"],.wpcf7 input[type="email"],.wpcf7 input[type="tel"] {
+    direction: ltr
+}
+
+/* Lets Get Started Button */
+button.btn,input.wpcf7-form-control.has-spinner.wpcf7-submit.btn {
+    background: #185c99;
+    color: #fff;
+    padding: 14px 42px;
+
+    text-transform: capitalize;
+
+    transition: .5s;
+    border: none
+}
+button.btn:hover {
+    background: #185c99;
+    color: #fff
+}
+
+
+/* Drop down icon */
+
+*{
+    padding:0%;
+    margin: 0;
+    font-family: 'Mulish',sans-serif;
+
+}
+ul{
+    list-style: none;
+    background: white;
+}
+ul li{
+    display: inline-block;
+    position: relative;
+}
+ul li a{
+    display: block;
+    padding: 20px 25px;
+    color: black;
+    text-decoration: none;
+    text-align: center;
+    font-size: 17px;
+}
+
+ul li ul.dropdown li{
+    display: block;
+}
+
+ul li ul.dropdown {
+    width: 100%;
+    background: #22438c;
+    position: absolute;
+    z-index: 999;
+    display: none;
+
+}
+
+ul li a:hover{
+    background: white;
+}
+
+ul li:hover ul.dropdown{
+    display: block;
+}
+
+
+.banner-card{
+    position:relative
+}
+
+.banner-text{
+    position: absolute;
+    top:38%;
+    color: #fff;
+    padding: 10px;
+    left: 16%;
+
+
+}
+
+
+.banner-text h4{
+    font-size:30px;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-bottom: 5px;
+    color: #ffffff;
+    font-family: 'Mulish',sans-serif;
+    font size: 80px;
+    
+}
+
+.banner-card{
+    position:relative
+}
+
+.section-text{
+    position: absolute;
+    top: 25%;
+    color: black;
+    padding: 10px;
+    right: 16%;
+
+
+}
+
+.section-text h6{
+    font-size:14px;
+    text-transform: uppercase;
+    font-weight: 500;
+    margin-bottom: 5px;
+    color: #ffffff;
+    font-family: 'Mulish',sans-serif;
+    font size: 80px;
+    
+.top{
+    left: 50px;
+    width: 30%;
+    background-color: white;
+    color: white;
+}
+.last{
+    left: 30px;
+    width: 30%;
+    background-color: white;
+    color: white;
+}
+element.style {
+    z-index: 3;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    padding: 0px;
+    border-width: 0px;
+    margin: 0px;
+    left: 0px;
+    top: 0px;
+    touch-action: pan-x pan-y;
+}
+
+
+
+.hi{
+    width: 30%;
+}
+
+
+
+}
+body {
+    color: #616161;
+    font-family: 'Mulish',sans-serif;
+    font-style: normal;
+    font-size: 16px;
+    line-height: 1.3;
+    letter-spacing: 0;
+    font-weight: 400;
+    font-style: normal;
+    transition: .5s;
+    margin-bottom: 0;
+    padding-top: 0;
+}
+
+/* Logo Heading */
+.logo-heading-container {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+h3.title {
+    FONT-WEIGHT: 800;
+    font-size: 21px
+}
+
+/* TRUSTED SOFTWARE DEVELOPMENT COMPANY */
+.dreamit-team-member-area {
+    padding: 90px 0 80px;
+    line-height: 1.8;
+    width: 100%
+}
+.style-two {
+    padding: 80px 0 22px
+}
+.bg-white12 {
+    background: #f0f6ff!important;
+}
+
+
+
+/* Section Title */
+.dreamit-section-title.borderall {
+    margin: AUTO;
+    padding: 50px;
+    border: 1px solid #aec6ef;
+    border-radius: 10px
+}
+h1.title-allheading {
+    color: black;
+    font-weight: 800;
+ 
+    margin: 0px 0px 35px;
+    font-size: 20px;
+    line-height: 30px;
+}
+
+
+.h6{
+    color: white;
+}
+
+
+
+.gotopbtn{
+    position: fixed;
+}
+
+
+.container{
+    display: flex ;
+    justify-content: center;
+}
+
+
+.card{
+    background: #f0f6ff;
+    width: 270px;
+    height: 400px;
+    margin: 10px;
+}
+
+
+.card-image{
+    background-color: #f0f6ff;
+    height: 170px;
+    margin-bottom: 15px;
+    background-size: cover;
+}
+
+
+.car-1{
+    background-color: #f0f6ff;
+}
+
+.car-2{
+
+}
+
+
+.car-3{
+
+}
+
+
+
+.flex-container {
+    display: flex;
+    background-color: #f0f6ff;
+    padding: 20px;
+    padding-left: 13%;
+    padding-right: 13%;
+}
+
+.flex-box {
+    flex: 1;
+    padding: 50px;
+    color: #616161;
+}
+
+
+.flex-box:nth-child(2) {
+    background-color: #f0f6ff; 
+}
+
+.contact-info {
+    font-weight: bold;
+}
+
+.quick-links{
+    font-weight: bold;
+}
+
+.branch-office{
+    font-weight: bold
+}
+
+
+
+
+  /* dropdown bar */
+  .navbar {
+    background-color: white;
+    overflow: ;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 10px 5%;
+    width: 100%;
+  }
+
+  .logo {
+    margin-right: 5%;
+  }
+
+  .navbar a {
+    color: black;
+    text-decoration: none;
+    font-size: 18px;
+    margin-right: 0; 
+  }
+
+  .navbar a:hover {
+    color: ;
+  }
+
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+
+  .dropbtn {
+    background-color: white;
+    color: black;
+    border: none;
+    padding: 10px 15px;
+    cursor: pointer;
+  }
+
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #fff;
+    min-width: 160px;
+    z-index: 1;
+    right: 0;
+    border-radius: 5%;
+  }
+
+  .dropdown-content a {
+    color: black;
+    padding: 0; 
+    margin: 0; 
+    text-decoration: none;
+    display: block;
+    font-size: 16px; 
+    line-height: 1.5; 
+    border-radius: 5%;
+  }
+
+  .dropdown-content a:hover {
+    background-color: #ddd;
+    color: ;
+   
+  }
+
+  .dropdown:hover .dropdown-content {
+    display: block;
+    border-radius: 5%;
+  }
+.ul{
+    position: absolute;
+    left: 0;
+}
+
+.dropdown-content a{
+    color: black;
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    display: block;
+    font-size:16px ;
+    line-height: 1.5;
+
+}
+.dropdown-content a:hover{
+    background-color: #ddd;
+    color: blue;
+
+} 

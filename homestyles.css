@@ -1,0 +1,520 @@
+@import url(https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap);html,body {
+    overflow-x: hidden
+}
+
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+body {
+    color: #616161;
+    font-family: 'Mulish',sans-serif;
+    font-style: normal;
+    font-size: 16px;
+    line-height: 1.3;
+    letter-spacing: 0;
+    font-weight: 400;
+    font-style: normal;
+    transition: .5s;
+    margin-bottom: 0;
+    padding-top: 0;
+}
+
+div {
+    display: block;
+}
+
+img {
+    vertical-align: middle;
+}
+
+p {
+    font-weight: 400;
+    font-style: normal;
+    line-height: 1.8
+}
+
+h1,h2,h3,h5,h6 {
+    color: #232323;
+    font-family: 'Mulish',sans-serif;
+    font-style: normal;
+    line-height: 1.5;
+    font-weight: 700
+}
+h1 {
+    font-size: 50px
+}
+
+h3 {
+    font-size: 30px
+}
+
+.mt-10 {
+    margin-top: 10px
+}
+.pb-30 {
+    padding-bottom: 30px
+}
+
+.text-center {
+    text-align: center!important;
+}
+
+
+
+/* What We Do */
+h3.title-allheading {
+    color: #185c99;
+    font-weight: 800;
+    text-transform: uppercase;
+    font-size: 25px;
+    line-height: 30px
+}
+.sub-text {
+    margin-bottom: 20px
+}
+
+.eael-call-to-action.bg-lite {
+    box-shadow: 8px 8px 7px 2px rgb(72 73 121 / 10%);
+    margin-bottom: 28px;
+    background: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    height: 316 px;
+    border: 1px solid rgb(72 73 121 / 10%);
+    margin-top: 50px
+}
+.eael-call-to-action.bg-lite p {
+    margin-bottom: 0;
+    text-align: justify
+}
+
+.align-items-center {
+    align-items: center!important;
+}
+
+img.leftimag {
+    width: 45px;
+    margin-right: 10px;
+}
+
+/* Logo Heading */
+.logo-heading-container {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+h3.title {
+    FONT-WEIGHT: 800;
+    font-size: 21px
+}
+
+/* TRUSTED SOFTWARE DEVELOPMENT COMPANY */
+.dreamit-team-member-area {
+    padding: 90px 0 80px;
+    line-height: 1.8;
+    width: 100%
+}
+.style-two {
+    padding: 86px 8px 0px
+}
+.bg-white12 {
+    background: #f0f6ff!important;
+}
+
+/* Image */
+.text-center {
+    text-align: center!important;
+    margin-bottom: 21px;
+}		
+.imagformobile {
+    margin-bottom: 21px
+}
+.overlap1 img, .trusteslogos, .choose-us-title .overlap img {
+    height: auto !important;
+}
+
+.trusteslogos {
+    width: 100%;
+}
+
+/* Section Title */
+.dreamit-section-title.borderall {
+    margin: AUTO;
+    padding: 50px;
+    border: 1px solid #aec6ef;
+    border-radius: 10px
+}
+h1.title-allheading {
+    color: #185c99;
+    font-weight: 800;
+    text-transform: uppercase;
+    font-size: 25px;
+    line-height: 30px;
+}
+
+/* Dream It Section Bar */
+.dreamit-section-bar {
+    background: #aec6ef;
+    height: 4px;
+    width: 90px;
+    border-radius: 30px;
+    position: relative;
+    margin-top: 16px
+}
+.dreamit-section-bar:before {
+    content: '';
+    position: absolute;
+    left: 31px;
+    top: -2px;
+    height: 8px;
+    width: 30px;
+    border-radius: 17px;
+    background: #185c99;
+
+    -webkit-animation-duration: 3s;
+
+    animation-duration: 3s;
+    -webkit-animation-timing-function: linear;
+    animation-timing-function: linear;
+    -webkit-animation-iteration-count: infinite;
+    animation-iteration-count: infinite;
+    -webkit-animation-name: MOVE-BG;
+    animation-name: MOVE-BG
+}
+
+
+
+
+
+.dreamit-section-bar.mt-10.leftbottombar {
+    margin-top: 16px!important;
+    margin-bottom: 16px!important
+}
+.dreamit-section-bar.mt-10.leftbottombar {
+    margin: initial;
+    margin-top: 10px
+}
+.dreamit-section-bar.mt-10 {
+    position: relative;
+    right: 0;
+    left: 0;
+    margin: 16px auto
+}
+.leftbottombar {
+    margin: unset!important;
+    margin-top: 16px!important;
+    margin-bottom: 16px!important
+}
+
+/* Content Text */
+.dreamit-section-content-text p {
+    font-size: 16px;
+    margin: 31px 0 13px;
+    line-height: 1.6;
+    width: 97%;
+    text-align: justify;
+}
+.contentforloacal {
+    text-align: justify!important;
+    line-height: 1.8!important;
+    margin: 0px!important;
+    width: 100%!important
+}
+p.contentforloacal {
+    width: 100%!important;
+    margin: 0px!important
+}
+
+/* Years of Experience */
+.dreamit-counter-area.style-three {
+    padding: 82px 0 88px
+}
+  
+/* Image link copied from the source code of the website*/
+
+.dreamit-counter-area {
+    background: url(https://micantech.net/wp-content/uploads/2023/02/Values_bg.png);
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 66px 0 63px
+}
+
+.dreamit-single-counter {
+    text-align: CENTER;
+}
+
+.count {
+    font-size: 45px;
+    margin: 0;
+    font-weight: 800;
+    color: #fff!important;
+    display: inline-block
+}
+
+.count span {
+    color: #fff!important
+}
+
+.dreamit-counter-title h4 {
+    font-size: 20px;
+    text-transform: capitalize;
+    font-weight: 500;
+    color: #fff
+}
+
+
+/*  */
+.dreamit-team-member-area {
+    padding: 90px 0 80px;
+    padding-bottom: 10px;
+}
+.leftbottombar {
+    margin: unset!important;
+    margin-top: 16px!important;
+    margin-bottom: 16px!important
+}
+.dreamit-section-bar.mt-10.leftbottombar {
+    margin-top: 16px!important;
+    margin-bottom: 16px!important
+}
+.dreamit-team-member-area .dreamit-section-content-text p {
+    line-height: 1.8;
+    margin: 29px 0 0;
+    width: 97%
+}
+.dreamit-section-content-text p {
+    font-size: 16px;
+    margin: 31px 0 13px;
+    line-height: 1.6
+}
+.dreamit-section-content-text p {
+    text-align: justify
+}
+.choose-us-single-box1 {
+    text-align: center;
+    padding: 13px 26px 38px;
+    margin-bottom: 30px;
+    position: relative;
+    transition: .5s;
+    overflow: hidden;
+    z-index: 1;
+    padding: 15px 30px 8px;
+    border: 1px solid #fff;
+    border-radius: 10px
+}
+
+.choose-us-single-box1:hover {
+    text-align: center;
+    background: #f0f6ff;
+    padding: 13px 26px 38px;
+    margin-bottom: 30px;
+    position: relative;
+    transition: .5s;
+    overflow: hidden;
+    z-index: ;
+    padding: 15px 30px 8px;
+    border: 1px solid #fff;
+    border-radius: 10px
+}
+
+.choose-us-title .overlap {
+    text-align: center
+}
+
+.overlap img:hover {
+    transform: scale(1)
+}
+
+.choose-us-title h2 {
+    font-size: 20px;
+    margin: 20px 0 9px 0;
+    font-weight: 700
+}
+
+
+
+
+
+
+
+.overlap {
+    text-align: right
+}
+
+.choose-us-single-box h2 {
+    color: #185c99!important
+}
+
+
+  /* dropdown bar */
+  .navbar {
+    background-color: white;
+    overflow: ;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 10px 5%;
+    width: 100%;
+  }
+
+  .logo {
+    margin-right: 5%;
+  }
+
+  .navbar a {
+    color: black;
+    text-decoration: none;
+    font-size: 18px;
+    margin-right: 0; 
+  }
+
+  .navbar a:hover {
+    color: ;
+  }
+
+  .dropdown {
+    position: relative;
+    display: inline-block;
+   
+  }
+
+  .dropbtn {
+    background-color: white;
+    color: black;
+    border: none;
+    padding: 10px 15px;
+    cursor: pointer;
+    
+  }
+
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #fff;
+    min-width: 160px;
+    z-index: 1;
+    right: 0;
+    border-radius: 5%;
+    
+  }
+
+  .dropdown-content a {
+    color: black;
+    padding: 0; 
+    margin: 0; 
+    text-decoration: none;
+    display: block;
+    font-size: 16px; 
+    line-height: 1.5; 
+    border-radius: 5%;
+    
+  }
+
+  .dropdown-content a:hover {
+    background-color: #ddd;
+    color: ;
+    
+  }
+
+  .dropdown:hover .dropdown-content {
+    display: block;
+    border-radius: 5%;
+  }
+.ul{
+    position: absolute;
+    left: 0;
+}
+
+.dropdown-content a{
+    color: black;
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    display: block;
+    font-size:16px ;
+    line-height: 1.5;
+  
+
+}
+.dropdown-content a:hover{
+    background-color: #ddd;
+    color: ;
+ 
+
+}
+
+.dropdown-content a{
+    color: black;
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    display: block;
+    font-size: 16px;
+    line-height: .5;
+    white-space-collapse: 15;
+    min-height: 18;
+    -ms-text-kashida-space: 0fr;
+    line-height: 2.5;
+    font-size: 16px;
+}
+
+
+
+.flex-container {
+    display: flex;
+    background-color: #f0f6ff;
+    padding: 20px;
+    padding-left: 13%;
+    padding-right: 13%;
+}
+
+.flex-box {
+    flex: 1;
+    padding: 50px;
+    color: #616161;
+}
+
+
+.flex-box:nth-child(2) {
+    background-color: #f0f6ff; 
+}
+
+.contact-info {
+    font-weight: bold;
+}
+
+.quick-links{
+    font-weight: bold;
+}
+
+.branch-office{
+    font-weight: bold
+}
+
+
+
+.gap img.leftimag {
+    width: 450px;
+    margin-right: 10px;
+}
+
+
+/* Logo Heading */
+.gap .logo-heading-container {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.gap h3.title {
+    FONT-WEIGHT: 800;
+    font-size: 21px
+}
+
+
+.gap {
+    height: 100px;
+}
